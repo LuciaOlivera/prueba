@@ -1,0 +1,69 @@
+.color-1 {
+  background-color: #005A66;
+  border-radius: 20px;
+}
+.color-1 img {
+  transition: transform 0.2s;
+}
+.color-1 img:hover {
+  transform: scale(1.2);
+}
+.color-1 h2, .color-1 p {
+  color: #B2D3D8;
+}
+
+.boton-servicios {
+  font-family: "Lato", sans-serif;
+  border: 0.2rem solid #669BB2;
+  border-radius: 50px;
+  color: #B2D3D8;
+  text-decoration: none;
+  padding: 0.5% 1%;
+}
+.boton-servicios:hover {
+  border: 0.2rem solid #B2D3D8;
+  color: #B2D3D8;
+}
+
+/* SECCION NOSOTROS*/
+.bg-nosotros {
+  background-image: url("../imagenes/nosotros/nosotros-textura.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left center;
+}
+
+.nosotros-trabajando {
+  border-radius: 20px;
+}
+
+.hero-home-nosotros {
+  height: 100vh;
+  background-image: url("../imagenes/nosotros/hero-nosotros.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.hero-home-servicios {
+  height: 100vh;
+  background-image: url("../imagenes/servicios/hero-servicios.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.nuestros-valores {
+  margin-top: 15%;
+}
+
+.margenes-servicios,
+.margenes-input {
+  margin-bottom: 10%;
+}
+
+/*# sourceMappingURL=luli-style.css.map */

@@ -1,0 +1,364 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+/*Tipografías*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+:root   {
+    --colorUno: #005A66;
+    --colorDos: #669BB2;
+    --colorTres:#B2D3D8;
+    --fontTitulos:  "Montserrat", sans-serif;
+    --fontBajadas:   "Montserrat", sans-serif;
+    --fontContenido:    "Lato", sans-serif;
+    --sizeTitulos: 5rem;
+    --sizeContenido:    1rem;
+}
+
+.miza-color {
+    background-color: var(--colorDos);
+}
+
+.miza-color-menu {
+    font-family: var(--fontContenido);
+    color: var(--colorTres);
+}
+
+/*HERO*/
+.hero-home  {
+height: 100vh;
+background-image: url("../imagenes/home/banner-home.png");
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+width: 100%;
+margin-bottom: 100px;
+}
+
+.titulo-home    {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1,
+.titulo,
+.home {
+    font-family: var(--fontTitulos);
+    font-size: var(--sizeTitulos);
+    font-weight: 600;
+}
+
+.bajada-home {
+    font-family: var(--fontTitulos);
+    font-size: 3rem;
+    margin-bottom: 5%;
+
+}
+
+.boton {
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    padding: 0.5% 2%;
+    border: 4px solid var(--colorUno);
+    border-radius: 50px;
+    background-color: var(--colorUno);
+    color: var(--colorTres);
+    text-decoration: none;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+
+/*CONTENIDO*/
+
+.columna-derecha {
+    margin-left: 5%;
+}
+
+.titulos-textos {
+    font-family: var(--fontContenido);
+    font-size: 2rem;
+    margin-bottom: 10%;
+    font-weight: 600;
+}
+
+.parrafo-home-uno {
+    font-size: var(--sizeContenido);
+    font-family: var(--fontContenido);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.icono-home {
+    align-items: center;
+    text-align: center;
+}
+
+.row,
+.parrafo-uno-icono {
+    margin-bottom: 5%;
+}
+
+.destacado {
+    background-color: var(--colorDos);
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.p-destacado {
+    font-size:2rem;
+    font-family: var(--fontContenido);
+    font-weight: 600;
+    color:azure;
+}
+
+
+
+
+ .titulos-secciones {
+     font-family: var(--fontTitulos);
+     font-size: 2.5rem;
+     font-weight: 700;
+     text-align: center;
+     padding-top: 10%;
+ }
+
+
+.margin-home-subtitulo {
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+.materiales {
+    padding-top: 3%;
+    align-items: center;
+    text-align: center;
+}
+
+.materiales-dos {
+
+    align-items: center;
+    text-align: center;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: var(--colorUno);
+    width: 100%;
+}
+
+.container-footer {
+    padding: 2% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    background-color: var(--colorUno);
+}
+
+.menu-footer ul li {
+    margin-top: 16px;
+}
+
+.menu-footer ul li a {
+    list-style: none;
+    text-decoration: none;
+    text-transform: initial;
+    color:azure; 
+    font-family: var(--fontContenido);
+}
+
+.iconos {
+    padding: 0 2%;
+}
+
+.iconos-social {
+    color: azure;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+/*CLIENTES*/
+.titulo-home-clientes {
+    text-align: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.boton-clientes {
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    border: 0.5rem solid var(--colorUno);
+    border-radius: 50px;
+    background-color: var(--colorUno);
+    color: var(--colorTres);
+    text-decoration: none;
+    padding: 0.5% 1%;
+    margin: 2% 42%;
+}
+
+.hero-home-clientes {
+    height: 100vh;
+    background-image: url("../imagenes/clientes/banner-clientes.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 100px; 
+    }
+
+.padding-clientes {
+        padding-bottom: 2%;
+    }
+
+.parrafo-clientes-uno {
+        font-size: var(--sizeContenido);
+        font-family: var(--fontContenido);
+        margin-bottom: 2rem;
+    }
+
+    .boton-clientes-secundario {
+        font-size: 24px;
+        font-family: 'Lato', sans-serif;
+        color: #005A66;
+        padding: 0.5% 2%;
+        border: 4px solid var(--colorUno);
+        border-radius: 50px;
+        text-decoration: none;
+    }
+    
+.margin-clientes {
+    margin-bottom: 3rem;
+}
+
+.card-text-clientes{
+    font-style: italic;
+}
+
+.card-body-clientes {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+
+/*una animación en el carroussel un poco pretenciosa jajaja*/
+.img-hover:hover {
+    transform: scale(2);
+    transition: all 1s;
+}
+
+/*
+.margin-clientes-secciones {
+    margin-top: 10%;
+}
+*/
+.subtitulo-clientes {
+    text-align: center;
+    font-family: var(--fontContenido);
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--colorUno);
+}
+
+.materiales {
+    padding-top: 0%;
+    margin-bottom: 10%;
+}
+
+/*media query HOME*/
+
+@media (max-width: 500px) {
+
+    .hero-home {
+            height:50vh;
+            width: 100%;
+            padding: 5%;
+    }
+
+    .titulo-mobile {
+        font-size: 1.5rem;
+        padding-right: 10%;
+    }
+
+    .bajada-home {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .hero-home {
+        margin-bottom: 3rem;
+    }
+
+    .p-destacado {
+        font-size: 1rem;
+        text-align: center;
+        margin: 0;
+        padding: auto;
+    }
+
+    .titulos-secciones {
+        font-size: 1rem;
+    }
+
+    .columna-derecha {
+        text-align: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    }
+    
+    @media (min-width: 500px) and (max-width: 1400px) {
+
+        .hero-home {
+                height: 60vh;
+                width: 100%;
+                padding: 2% 5%;
+        }
+    
+        .titulo-mobile {
+            font-size: 2rem;
+            padding-right: 10%;
+        }
+    
+        .bajada-home {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            margin-top: 1.5rem;
+        }
+    
+        .hero-home {
+            margin-bottom: 3rem;
+        }
+    
+        .p-destacado {
+            font-size: 1rem;
+            text-align: center;
+            margin: 0;
+            padding: auto;
+        }
+
+        .titulos-secciones {
+            font-size: 1rem;
+        }
+    
+        .columna-derecha {
+            text-align: center;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+        }
+    
+        }
+        
